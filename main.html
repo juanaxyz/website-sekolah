@@ -5,52 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SMAN 1 TAMPAKSIRING</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar">
       <div class="container-fluid">
-        <a class="navbar-brand logo" href="#"><img src="img/logo sma.PNG" width="50px" ></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#home">TAKSU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <span class="a1"><a class="nav-link active" aria-current="page" href="#home">Home</a></span>
+          <span class="a1"><a class="nav-link active" href="#pencegahan">upaya dan pencegahan</a></span>
+            <span class="a1"><a class="nav-link active" href="#">coming soon</a></span>
+          </div>
         </div>
       </div>
     </nav>
     <!-- main -->
-    <div class="container-fluid main-container">
+    <div class="container-fluid main-container tinggi" id="home">
       <div class="row align-items-center">
         <div class="col-md-6 text-center gambar">
-          <img src="img/logo sma.PNG">
-          <h1 class="text-center">SMAN 1 TAMPAKSIRING</h1>
+          <img src="img/bully.png" alt="">
         </div>
 
         <div class="col-md-6 teks">
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sit? Id ipsum optio repudiandae ab veniam quibusdam velit maxime neque ullam illo voluptatibus nesciun.</p>
+          <h2 class="text-judul">Apa itu bullying ?</h2>
+          <p class="text-start text-penjelasan">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit obcaecati eaque, cum vero laudantium delectus reiciendis ex officia libero iste quasi deleniti temporibus recusandae sint, ipsa quae, cupiditate porro quod.</p>
         </div>
       </div>
+    </div>
+    <div class="wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#616063" fill-opacity="1" d="M0,128L26.7,117.3C53.3,107,107,85,160,106.7C213.3,128,267,192,320,192C373.3,192,427,128,480,112C533.3,96,587,128,640,138.7C693.3,149,747,139,800,112C853.3,85,907,43,960,64C1013.3,85,1067,171,1120,208C1173.3,245,1227,235,1280,224C1333.3,213,1387,203,1413,197.3L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+    </div>
+
+    <div class="container-fluid sec-container tinggi" id="pencegahan">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center gambar">
+          <img src="img/confused.png" style="padding-top: 100px;" />
+          <h1 class="text-center teks">penanggulangan dan pencegahannya ?</h1>
+        </div>
+
+        <div class="col-md-6 teks">
+
+          <p class="text-start text-penjelasan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore impedit fuga illo dolore id aspernatur quisquam adipisci eum doloremque vitae provident nostrum veritatis aut tempore, quasi reiciendis debitis earum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wave2">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c08267" fill-opacity="1" d="M0,320L34.3,272C68.6,224,137,128,206,106.7C274.3,85,343,139,411,160C480,181,549,171,617,181.3C685.7,192,754,224,823,208C891.4,192,960,128,1029,133.3C1097.1,139,1166,213,1234,224C1302.9,235,1371,181,1406,154.7L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    </div>
+
+    <div class="third-container" style="min-height: 100px;">
 
     </div>
+    
     <!-- javascript -->
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
   </body>
 </html>

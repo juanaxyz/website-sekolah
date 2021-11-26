@@ -1,9 +1,56 @@
-.main-container{
-  padding: 20px;
-  background-color: rgb(192, 243, 243);
+.navbar{
+  background-color: thistle;
 }
-.gambar img{
+.tinggi{
+  min-height: 500px;
+}
+.main-container{
+  background-color: #616063;
+  position: relative;
+}
+.main-container .row{
+  padding-top: 50px;
+}
+.main-container img{
   width: 200px ;
 }
+.text-judul{
+  color: #e7e0de;
+}
+.text-penjelasan{
+  color: #ccb9b1;
+}
+.sec-container{
+  background-color: #c08267;
+  top: -10px;
+}
+.sec-container img{
+  width: 250px;
+}
+.sec-container .text-penjelasan{
+  color:#212123;  
+}
+.teks{
+  padding-top: 30px;
+}
+.wave{
+  top: -10;
+  background-color: #c08267;
+}
 
 
+
+
+
+/* animasi */
+.navbar-nav a:hover{
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #84C8CE, 0 0 30px #84C8CE, 0 0 40px #84C8CE, 0 0 55px #84C8CE, 0 0 75px #84C8CE;
+}
+
+/* media query */
+@media screen and (min-width:768px){
+  .main-container img{
+    width: 300px;
+    padding-top: 30px;
+  }
+}
